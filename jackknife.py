@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def jackknife(arr) -> float:
+def jackknife(arr: np.ndarray) -> float:
     n = len(arr)
     average = np.empty(n)
     for i in range(n):
