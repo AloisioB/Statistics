@@ -10,5 +10,5 @@ def jackknife(arr: np.ndarray) -> float:
     return np.mean(average)
 
 
-data = np.random.random(1000)
-j = jackknife(data)
+sample = np.random.random(1000)
+j = jackknife(sample)
